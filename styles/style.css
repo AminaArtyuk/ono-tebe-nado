@@ -1,17 +1,17 @@
 body {
   width: 1100px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
-  font-size: 18px;
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
   align-items: center;
   width: 1052px;
   height: 105px;
   margin: 92px auto 96px auto;
+  font-size: 18px;
 }
 
 p {
@@ -56,10 +56,10 @@ p {
 }
 
 .cover {
-  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 100%;
   height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
@@ -67,10 +67,10 @@ p {
 }
 
 .cover__title {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   z-index: 1;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 165px;
   color: white;
   font-size: 100px;
@@ -92,14 +92,14 @@ p {
 }
 
 .aligned-text_center {
-  text-align: center;
-  line-height: 1.4;
   padding-right: 20px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .aligned-text_right {
-  text-align: right;
   line-height: 1;
+  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -113,12 +113,12 @@ p {
 .cover__description {
   z-index: 1;
   display: flex;
-  margin-top: 135px;
-  margin-left: 78px;
-  margin-right: 50px;
   justify-content: space-between;
   align-items: center;
   height: 51px;
+  margin-top: 135px;
+  margin-right: 50px;
+  margin-left: 78px;
 }
 
 .cover__description-text {
